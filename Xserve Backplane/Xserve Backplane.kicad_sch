@@ -1029,13 +1029,13 @@
       )
     )
     (symbol "KiCADs:BD9E302EFJ-E2" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 20.32 12.7 0)
+      (property "Reference" "U1" (at 20.32 13.97 0)
         (effects (font (size 1.524 1.524)))
       )
       (property "Value" "BD9E302EFJ-E2" (at 20.32 10.16 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "HTSOP-J8_ROM" (at 20.32 8.636 0)
+      (property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" (at 20.32 8.636 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
@@ -1114,7 +1114,7 @@
         )
         (pin unspecified line (at 17.78 -26.67 90) (length 7.62)
           (name "EPAD" (effects (font (size 1.4986 1.4986))))
-          (number "EPAD" (effects (font (size 1.4986 1.4986))))
+          (number "9" (effects (font (size 1.4986 1.4986))))
         )
       )
     )
@@ -3457,7 +3457,7 @@
     (pin "6" (uuid dfa937d1-6a22-4316-a500-609989987586))
     (pin "7" (uuid 2c2fd173-95c7-4b41-9e9b-cbdc386ba498))
     (pin "8" (uuid 2cd4f8a4-b6f9-4e0a-81c5-0d975177bca6))
-    (pin "EPAD" (uuid 6adf432d-451a-4a4d-9abe-aa97225cdcab))
+    (pin "9" (uuid b42f6608-0534-4d73-b093-b796107ae8e2))
     (instances
       (project "Xserve Backplane"
         (path "/111912a3-65d6-4c33-9374-66c89bdc7744"
